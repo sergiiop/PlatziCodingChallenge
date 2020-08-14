@@ -33,7 +33,7 @@ def run():
     number = input("¿Do you want the password has a number? (y/n): ")
     simbols = input("¿Do you want the password has a simbols? (y/n): ")
     password = generator_password(lon, mayus, minus, number, simbols)
-    print('Your new password is: ' + password)
+    print('Your new password is:) ' + password)
 
 
 if __name__ == "__main__":
